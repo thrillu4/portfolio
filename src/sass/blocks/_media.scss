@@ -1,0 +1,224 @@
+@media (max-width: 1439px) {
+    .sidepanel {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .aboutme {
+        &__wrapper {
+            grid-template-columns: 400px 520px;
+            column-gap: 40px;
+        }
+        &__skills {
+            column-gap: 20px;
+            grid-template: repeat(2,minmax(115px,auto))/repeat(2,250px);
+        }
+        &__skill {
+            grid-template-columns: 40px 195px;
+            column-gap: 15px;
+        }
+    }
+    .resume {
+        &__wrapper {
+            padding: 40px 20px 0 20px;
+            column-gap: 80px;
+        }
+    }
+    .skills {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 270px);
+            justify-content: space-between;
+        }
+    }
+    .portfolio {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 280px);
+            grid-auto-rows: 280px;
+            justify-content: space-between;
+            row-gap: 35px;
+            .horizontal, .vertical {
+                grid-row: unset;
+                grid-column: unset;
+            }
+        }
+    }
+    .contacts {
+        &__photo {
+            display: none;
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        &__form {
+            column-gap: 30px
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .title {
+        margin-top: 26px;
+        margin-bottom: 15px;
+    }
+    .divider {
+        margin: 0 auto;
+    }
+    .aboutme {
+        padding-top: 60px;
+        &__wrapper {
+            grid-template-columns: 300px 380px;
+        }
+        &__skills {
+            grid-template-columns: 380px;
+            grid-auto-rows: minmax(115px,auto);
+        }
+        &_skill {
+            grid-template-columns: 40px 320px;
+            column-gap: 20px;
+        }
+    }
+    .resume {
+        &__wrapper {
+            column-gap: 60px;
+            grid-template-columns: repeat(2,320px);
+        }
+    }
+    .skills {
+        &__wrapper {
+            padding: 0 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .title {
+        &_fz48 {
+            font-size: 28px;
+        }
+    }
+    .promo {
+        &__title {
+            line-height: 39px;
+            width: 300px;
+        }
+    }
+    .aboutme {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template: 400px auto auto / 1fr;
+        }
+        &__photo {
+            grid-row: unset;
+        }
+        &__skills {
+            grid-template-columns: repeat(2, 260px);
+        }
+        &__skill {
+            grid-template-columns: 40px 200px;
+            column-gap: 20px;
+        }
+    }
+    .resume {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template-columns: 1fr;
+            column-gap: 60px;
+            row-gap: 40px;
+        }
+    }
+    .skills {
+        padding-top: 40px;
+        &__wrapper {
+            padding: 0;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+    .portfolio {
+        padding-top: 40px;
+        &__wrapper {
+            justify-content: center;
+        }
+        .divider {
+            width: 75px;
+        }
+    }
+    .contacts {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        &__form {
+            grid-template: 45px 45px 190px / 300px
+        }
+        &__textarea {
+            grid-column: auto;
+        }
+        &__triggers {
+            grid-column: auto;
+        }
+        &__btn {
+            padding: 0 24px;
+        }
+        &__policy {
+            line-height: 14px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .title {
+        &_fz48 {
+            font-size: 26px;
+        }
+        &_fz36 {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+    .hamburger {
+        right: 20px;
+    }
+    .menu {
+        &__block {
+            width: 250px;
+            padding-left: 20px;
+        }
+    }
+    .promo {
+        background: url('../img/main_bg.jpg') no-repeat 57%/cover;
+        &__btns {
+            margin-top: 30px;
+        }
+    }
+    .aboutme {
+        &__wrapper {
+            grid-template: 340px auto auto / 1fr;
+        }
+        &__skills {
+            grid-template-columns: 1fr;
+        }
+    }
+    .resume {
+        &__wrapper {
+            padding: 40px 5px 0 5px;
+        }
+    }
+    .skills {
+        &__wrapper {
+            margin-top: 20px;
+        }
+    }
+}
