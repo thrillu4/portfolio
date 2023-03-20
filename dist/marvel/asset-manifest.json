@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a20d106a.chunk.css",
+    "main.js": "/static/js/main.2a6c2542.chunk.js",
+    "main.js.map": "/static/js/main.2a6c2542.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aafd5d49.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aafd5d49.js.map",
+    "static/js/2.ee471df5.chunk.js": "/static/js/2.ee471df5.chunk.js",
+    "static/js/2.ee471df5.chunk.js.map": "/static/js/2.ee471df5.chunk.js.map",
+    "static/css/3.2a0c371b.chunk.css": "/static/css/3.2a0c371b.chunk.css",
+    "static/js/3.c68ba2b7.chunk.js": "/static/js/3.c68ba2b7.chunk.js",
+    "static/js/3.c68ba2b7.chunk.js.map": "/static/js/3.c68ba2b7.chunk.js.map",
+    "static/css/4.6f619b6a.chunk.css": "/static/css/4.6f619b6a.chunk.css",
+    "static/js/4.d6f0055c.chunk.js": "/static/js/4.d6f0055c.chunk.js",
+    "static/js/4.d6f0055c.chunk.js.map": "/static/js/4.d6f0055c.chunk.js.map",
+    "static/css/5.238f6977.chunk.css": "/static/css/5.238f6977.chunk.css",
+    "static/js/5.3d7e6e81.chunk.js": "/static/js/5.3d7e6e81.chunk.js",
+    "static/js/5.3d7e6e81.chunk.js.map": "/static/js/5.3d7e6e81.chunk.js.map",
+    "static/js/6.3cdcd852.chunk.js": "/static/js/6.3cdcd852.chunk.js",
+    "static/js/6.3cdcd852.chunk.js.map": "/static/js/6.3cdcd852.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/3.2a0c371b.chunk.css.map": "/static/css/3.2a0c371b.chunk.css.map",
+    "static/css/4.6f619b6a.chunk.css.map": "/static/css/4.6f619b6a.chunk.css.map",
+    "static/css/5.238f6977.chunk.css.map": "/static/css/5.238f6977.chunk.css.map",
+    "static/css/main.a20d106a.chunk.css.map": "/static/css/main.a20d106a.chunk.css.map",
+    "static/js/2.ee471df5.chunk.js.LICENSE.txt": "/static/js/2.ee471df5.chunk.js.LICENSE.txt",
+    "static/media/Avengers.4065c8f9.png": "/static/media/Avengers.4065c8f9.png",
+    "static/media/Avengers_logo.9eaf2193.png": "/static/media/Avengers_logo.9eaf2193.png",
+    "static/media/error.42292aa1.gif": "/static/media/error.42292aa1.gif",
+    "static/media/mjolnir.61f31e18.png": "/static/media/mjolnir.61f31e18.png",
+    "static/media/vision.067d4ae1.png": "/static/media/vision.067d4ae1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aafd5d49.js",
+    "static/js/2.ee471df5.chunk.js",
+    "static/css/main.a20d106a.chunk.css",
+    "static/js/main.2a6c2542.chunk.js"
+  ]
+}
