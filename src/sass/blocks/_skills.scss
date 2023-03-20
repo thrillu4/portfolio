@@ -27,6 +27,9 @@
         &-icon {
             display: flex;
             min-height: 65px;
+            img {
+                max-height: 65px;
+            }
         }
         &-title {
             margin-top: 20px;

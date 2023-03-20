@@ -5,41 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <meta name="title" content="Мое портфолио">
-    <meta name="description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
+    <meta name="title" content="Portfolio">
+    <meta name="description" content="Here you can see my work and learn more about me">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="Мое портфолио">
-    <meta property="og:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Мое портфолио">
-    <meta property="twitter:description" content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-    <!-- Favicon  -->
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
-    <link rel="manifest" href="icons/favicon//manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon/site.webmanifest">
 
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -48,11 +20,12 @@
     <!-- FIRST SCREEN -->
 
     <aside class="sidepanel">
-        <a href="#" class="sidepanel__link"><img src="icons/social/facebook.svg" alt="facebook"></a>
-        <a href="#" class="sidepanel__link"><img src="icons/social/instagram.svg" alt="instagram"></a>
-        <a href="#" class="sidepanel__link"><img src="icons/social/github.svg" alt="github"></a>
+        <a href="https://t.me/real_thrill" target="_blank" class="sidepanel__link"><img src="icons/social/telegram.svg" alt="telegram"></a>
+        <a href="https://www.linkedin.com/in/denis-kraevoy" target="_blank" class="sidepanel__link"><img src="icons/social/linkedin.svg" alt="linkedin"></a>
+        <a href="https://www.instagram.com/thrillinst" target="_blank" class="sidepanel__link"><img src="icons/social/instagram.svg" alt="instagram"></a>
+        <a href="https://github.com/thrillu4" target="_blank" class="sidepanel__link"><img src="icons/social/github.svg" alt="github"></a>
         <div class="sidepanel__divider"></div>
-        <div class="sidepanel__title"><span>Социальные сети</span></div>
+        <div class="sidepanel__title"><span>Social media</span></div>
     </aside>
 
     <div class="menu">
@@ -64,12 +37,10 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__item"><a href="#">ПРО МЕНЯ</a></li>
-                    <li class="menu__item"><a href="#">МОЙ ОПЫТ</a></li>
-                    <li class="menu__item"><a href="#">МОИ НАВЫКИ</a></li>
-                    <li class="menu__item"><a href="#">МОИ РАБОТЫ</a></li>
-                    <li class="menu__item"><a href="#">ПРАЙС-ЛИСТ</a></li>
-                    <li class="menu__item"><a href="#">КОНТАКТЫ</a></li>
+                    <li class="menu__item"><a href="#me">About Me</a></li>
+                    <li class="menu__item"><a href="#exp">Experience</a></li>
+                    <li class="menu__item"><a href="#skill">Skills</a></li>
+                    <li class="menu__item"><a href="#projects">Projects</a></li>
                 </ul>
             </nav>
 
@@ -103,29 +74,32 @@
             <span></span>
         </div>
         <div class="container">
-            <div class="title title_fz16 promo__subtitle">Меня зовут Денис Краевой</div>
-            <h1 class="title title_fz48 promo__title">Я web-разработчик <br>
-            из города Никополь</h1>
+            <div class="title title_fz16 promo__subtitle">My name is Denys</div>
+            <h1 class="title title_fz48 promo__title">Front-end Developer</h1>
             <div class="promo__btns">
-                <a class="btn promo__link" href="#">Портфолио</a>
-                <a class="promo__link" href="#">Про меня</a>
+                <a class="btn promo__link" href="#projects">Portfolio</a>
+                <a class="promo__link" href="#me">About Me</a>
             </div>
         </div>
     </section>
 
     <!-- SECOND SCREEN -->
 
-    <section class="aboutme">
+    <section id="me" class="aboutme">
         <div class="container">
             <div class="aboutme__wrapper">
                 <div class="aboutme__photo">
-                    <img src="img/main_photo.jpg" alt="photo">
+                    <img src="img/ya.png" alt="photo">
                 </div>
                 <div class="aboutme__content">
-                    <h2 class="title title_fz16 aboutme__title">Про меня</h2>
-                    <div class="title abouteme__header">Меня зовут Александра</div>
+                    <h2 class="title title_fz16 aboutme__title">About Me</h2>
+                    <div class="title abouteme__header">My name is Denys</div>
                     <div class="divider"></div>
-                    <p class="aboutme__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p class="aboutme__text">I want to become a professional web developer, because I'm good at it and most importantly I enjoy the process. <br>
+                        <br>
+                        My previous experience was in a large pipe manufacturing company for local and overseas deliveries, in which I was the one doing the goods following. <br>
+                        <br>
+                        I believe that everything is possible for a person! The main thing is to set a goal and go to your dream! </p>
                 </div>
                 <div class="aboutme__skills">
                     <div class="aboutme__skill">
@@ -133,8 +107,7 @@
                             <img src="icons/about_me/web_development.svg" alt="web-dev">
                         </div>
                         <div>
-                            <div class="title title_fz14">Web-разработка</div>
-                            <div class="aboutme_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                            <div class="title title_fz14">Web Development</div>
                         </div>
                     </div>
                     <div class="aboutme__skill">
@@ -142,19 +115,10 @@
                             <img src="icons/about_me/mobile_dev.svg" alt="mobile-dev">
                         </div>
                         <div>
-                            <div class="title title_fz14">Разработка приложений</div>
-                            <div class="aboutme_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                            <div class="title title_fz14">Application Development</div>
                         </div>
                     </div>
-                    <div class="aboutme__skill">
-                        <div class="aboutme__skill-circle">
-                            <img src="icons/about_me/design.svg" alt="design">
-                        </div>
-                        <div>
-                            <div class="title title_fz14">UI/UX Design</div>
-                            <div class="aboutme_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div> 
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -162,15 +126,15 @@
 
     <!-- THIRD SCREEN -->
 
-    <section class="resume">
+    <section id="exp" class="resume">
         <div class="container">
-            <h2 class="title_fz16 resume__title">Опыт</h2>
-            <div class="title resume__header">Чем я буду полезна</div>
+            <h2 class="title_fz16 resume__title">Experience</h2>
+            <div class="title resume__header">How can I be useful</div>
             <div class="divider"></div>
 
             <div class="resume__wrapper">
                 <div class="resume__column">
-                    <h2 class="title title_fz20 resume__column-title">Образование</h2>
+                    <h2 class="title title_fz20 resume__column-title">Education</h2>
                     <ul>
                         <li>
                             <div class="resume__item">
@@ -178,11 +142,10 @@
                                     <div class="resume__item-icon">
                                         <img src="icons/experience/university.svg" alt="university">
                                     </div>
-                                    <h4 class="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
-                                    <div class="resume__item-data">Диплом магистра | Москва (2014-2020)</div>
-                                </div>
-                                <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                    <h4 class="title title_fz14">THE NATIONAL METALLURGICAL
+                                        ACADEMY OF UKRAINE
+                                        </h4>
+                                    <div class="resume__item-data">Bachelor's degree (2018-2021)</div>
                                 </div>
                             </div>
                         </li>
@@ -192,18 +155,16 @@
                                     <div class="resume__item-icon">
                                         <img src="icons/experience/courses.svg" alt="university">
                                     </div>
-                                    <h4 class="title title_fz14">Udemy</h4>
-                                    <div class="resume__item-data">Курсы по Web-разработке </div>
-                                </div>
-                                <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                    <h4 class="title title_fz14">TECHNICAL SCHOOL OF NATIONAL
+                                        METALLURGICAL ACADEMY</h4>
+                                    <div class="resume__item-data">Junior Specialist (2014-2018)</div>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="resume__column">
-                    <h2 class="title title_fz20 resume__column-title">Опыт работы</h2>
+                    <h2 class="title title_fz20 resume__column-title">Courses</h2>
                     <ul>
                         <li>
                             <div class="resume__item">
@@ -211,11 +172,8 @@
                                     <div class="resume__item-icon">
                                         <img src="icons/experience/developer.svg" alt="university">
                                     </div>
-                                    <h4 class="title title_fz14">Front-End Developer</h4>
-                                    <div class="resume__item-data">EPAM | Москва (2018-2019)</div>
-                                </div>
-                                <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                    <h4 class="title title_fz14">Web Developer</h4>
+                                    <div class="resume__item-data">Udemy | 2022</div>
                                 </div>
                             </div>
                         </li>
@@ -225,11 +183,19 @@
                                     <div class="resume__item-icon">
                                         <img src="icons/experience/designer.svg" alt="university">
                                     </div>
-                                    <h4 class="title title_fz14">UI/UX Designer</h4>
-                                    <div class="resume__item-data">Squad Team | Москва (2018)</div>
+                                    <h4 class="title title_fz14">JavaScript + React</h4>
+                                    <div class="resume__item-data">Udemy | 2022</div>
                                 </div>
-                                <div class="resume__item-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/designer.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">TypeScript</h4>
+                                    <div class="resume__item-data">Udemy | 2023</div>
                                 </div>
                             </div>
                         </li>
@@ -241,10 +207,10 @@
 
     <!-- FOURTH SCREEN -->
 
-    <section class="skills">
+    <section id="skill" class="skills">
         <div class="container">
-            <h2 class="title_fz16 skills__title">Навыки</h2>
-            <div class="title skills__header">Что я использую в работе</div>
+            <h2 class="title_fz16 skills__title">Skills</h2>
+            <div class="title skills__header">What I use in work</div>
             <div class="divider"></div>
 
             <div class="skills__wrapper">
@@ -254,7 +220,7 @@
                     </div>
                     <h4 class="skills__item-title title_fz14">HTML5</h4>
                     <div class="skills__item-descr">
-                        Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта
+                        Markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation.
                     </div>
                 </div>
                 <div class="skills__item">
@@ -263,7 +229,7 @@
                     </div>
                     <h4 class="skills__item-title">CSS3</h4>
                     <div class="skills__item-descr">
-                        Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!
+                        It is a style sheet language which is used to describe the look and formatting of a document written in markup language. It provides an additional feature to HTML.
                     </div>
                 </div>
                 <div class="skills__item">
@@ -272,16 +238,7 @@
                     </div>
                     <h4 class="skills__item-title">Java Script</h4>
                     <div class="skills__item-descr">
-                        Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое
-                    </div>
-                </div>
-                <div class="skills__item">
-                    <div class="skills__item-icon">
-                        <img src="icons/skills/jquery.svg" alt="jquery">
-                    </div>
-                        <h4 class="skills__item-title">Jquery</h4>
-                        <div class="skills__item-descr">
-                            Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не будем, но навык работы с ней присутствует
+                        Dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages.
                     </div>
                 </div>
                 <div class="skills__item">
@@ -290,25 +247,25 @@
                     </div>
                     <h4 class="skills__item-title">React</h4>
                     <div class="skills__item-descr">
-                        Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели
+                        Is a JavaScript library for rendering user interfaces (UI). UI is built from small units like buttons, text, and images. React lets you combine them into reusable, nestable components.
                     </div>
                 </div>
                 <div class="skills__item">
                     <div class="skills__item-icon">
-                        <img src="icons/skills/node.js.svg" alt="node.js">
+                        <img src="icons/skills/redux.svg" alt="redux">
                     </div>
-                    <h4 class="skills__item-title">Node.js</h4>
+                    <h4 class="skills__item-title">Redux</h4>
                     <div class="skills__item-descr">
-                        Эта платформа позволяет создавать бэкенд для вашего продукта - “мозги”, которые будут выполнять действия, которые пользователь не видит
+                        Redux is a pattern and library for managing and updating application state, using events called "actions".
                     </div>
                 </div>
                 <div class="skills__item">
                     <div class="skills__item-icon">
-                        <img src="icons/skills/mongo.db.svg" alt="mongo.db">
+                        <img src="icons/skills/sass-icon.svg" alt="SASS">
                     </div>
-                    <h4 class="skills__item-title">Mongo.db</h4>
+                    <h4 class="skills__item-title">SASS</h4>
                     <div class="skills__item-descr">
-                        Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения
+                        Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
                     </div>
                 </div>
             </div>
@@ -317,10 +274,10 @@
 
     <!-- FIFTH SCREEN-->
 
-    <section class="portfolio">
+    <section id="projects" class="portfolio">
         <div class="container">
-            <h2 class="title_fz16 portfolio__title">Портфолио</h2>
-            <div class="title portfolio__header">Мои работы</div>
+            <h2 class="title_fz16 portfolio__title">Portfolio</h2>
+            <div class="title portfolio__header">My Projects</div>
             <div class="divider"></div>
 
             <div class="portfolio__wrapper">
@@ -330,7 +287,7 @@
                 <a href="/pulse" target="_blank" class="portfolio__item">
                     <img src="img/works/pulse.jpg" alt="pulse">
                 </a>
-                <a href="#" target="_blank" class="portfolio__item">
+                <a href="/build" target="_blank" class="portfolio__item">
                     <img src="img/works/bread.jpg" alt="bread">
                 </a>
                 <a href="#" target="_blank" class="portfolio__item vertical">
@@ -345,61 +302,6 @@
             </div>
         </div>
         <div class="divider"></div>
-    </section>
-
-    <!-- FORM -->
-
-    <section class="contacts">
-        <div class="container">
-            <div class="contacts__wrapper">
-                <div class="contacts__photo">
-                    <img src="img/main_photo.jpg" alt="photo">
-                </div>
-                <div class="contacts__descr">
-                    <h2 class="title title_fz16 contacts__title">Контакты</h2>
-                    <div class="title contacts__subtitle">Свяжитесь со мной</div>
-                    <div class="divider"></div>
-                    <div class="title title_fz14 contacts__text">
-                        Любым удобным для вас способом:
-                    </div>
-                    <div class="contacts__social">
-                        <a href="#" class="contacts__link">
-                            <img src="icons/social/facebook2.svg" alt="facebook">
-                        </a>
-                        <a href="#" class="contacts__link">
-                            <img src="icons/social/telegram.svg" alt="telegram">
-                        </a>
-                        <a href="#" class="contacts__link">
-                            <img src="icons/social/instagram.svg" alt="instagram">
-                        </a>
-                    </div>
-                    <div class="title title_fz14 contacts__text">
-                        Или оставьте ваши данные и я сама вам напишу:
-                    </div>
-                    <form action="#" class="contacts__form">
-                        <div class="contacts__input">
-                            <input required name="name" id="name" type="text">
-                            <label for="name">Ваше имя</label>
-                        </div>
-                        <div class="contacts__input">
-                            <input required name="email" id="email" type="email">
-                            <label for="email">Ваша почта</label>
-                        </div>
-                        <div class="contacts__textarea">
-                            <textarea name="text" id="text"></textarea>
-                            <label for="text">Ваше сообщение</label>
-                        </div>
-                        <div class="contacts__triggers">
-                            <button class="contacts__btn btn">Отправить сообщение</button>
-                            <div class="contacts__policy">
-                                <input required type="checkbox">
-                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
     </section>
 
     <script src="js/script.js"></script>
